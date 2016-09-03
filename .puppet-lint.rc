@@ -1,0 +1,6 @@
+--error-level=error
+--log-format="%{path} - %{kind}: %{message}"
+--relative
+--with-context
+--show-ignored
+# --no-140chars-check

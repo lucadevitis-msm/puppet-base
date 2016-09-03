@@ -1,0 +1,9 @@
+Gemfile.lock
+.yardoc/
+.yardwarns
+.bundle/
+doc/
+strings.json
+spec/fixtures/
+coverage/
+vendor/

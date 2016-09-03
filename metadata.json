@@ -1,0 +1,28 @@
+{
+  "name": "base",
+  "version": "0.0.1",
+  "author": "MSM",
+  "license": "MIT",
+  "summary": "Simple configuration file creation",
+  "source": "https://github.com/MSMFG/puppet-base",
+  "project_page": "https://github.com/MSMFG/puppet-base",
+  "issues_url": "https://github.com/MSMFG/puppet-base/issues",
+  "tags": [ "simple", "configuration", "files", "config", "conf" ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [ "5.0", "6.0", "7.0" ]
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.6.0 < 5.0.0"
+    },
+    {
+      "name": "puppet/archive",
+      "version_requirement": ">= 1.0.0"
+    }
+  ],
+  "data_provider": "hiera"
+}
