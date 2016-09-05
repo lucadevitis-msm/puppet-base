@@ -7,7 +7,7 @@ class base::instance
   stage { 'smoketest': require => Stage['cleanup'] }
   stage { 'register': require  => Stage['smoketest'] }
 
-  class { 'base::swap': stage      => 'swapfile' }
+  class { 'base::swapfile': stage  => 'swapfile' }
   class { 'base::system': stage    => 'system' }
   class { 'base::cleanup': stage   => 'cleanup' }
   class { 'base::smoketest': stage => 'smoketest' }

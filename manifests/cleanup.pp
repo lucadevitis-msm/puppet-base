@@ -1,8 +1,7 @@
 class base::cleanup
 {
   exec { 'swapoff':
-    command => '/sbin/swapoff /swapfile',
-    onlyif  => '/usr/bin/test -f /swapfile'
+    command => '/sbin/swapoff --ifexists /swapfile'
   }
 
   file { 'swapfile':

@@ -1,4 +1,4 @@
-class base::swap($size = undef)
+class base::swapfile($size = undef)
 {
   include stdlib
 
