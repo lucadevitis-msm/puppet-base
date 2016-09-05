@@ -1,6 +1,6 @@
 # This class manages the installation of PIP as both a command and as a puppet
 # package provider.
-class base::python
+class base::pip
 {
   $get_pip_py = '/usr/local/bin/get-pip.py'
   $get_pip_url = "https://bootstrap.pypa.io/get-pip.py"
